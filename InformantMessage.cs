@@ -27,7 +27,7 @@ namespace InitHelperInformatMessage
         public static void SuccessOutput(string message)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine($"Error: {message}");
+            Console.WriteLine($"Succeeded: {message}");
             Console.ResetColor();           
         }
     }
